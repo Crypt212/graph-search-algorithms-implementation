@@ -26,4 +26,4 @@ def bfs(graph, start, goal):
                     stack.append(new_path);
 
 solution = bfs(graph_info.graph, 'S', 'G');
-print(solution);
+print('Solution is:', solution)

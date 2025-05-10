@@ -27,3 +27,4 @@ def bfs(graph, start, goal):
 
 solution = bfs(graph_info.graph, 'S', 'G');
 print(solution);
+print('Solution is:', solution)

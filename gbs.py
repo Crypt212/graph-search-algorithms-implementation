@@ -4,8 +4,8 @@ def path_cost(path, h_table):
     return h_table[path[-1][0]]
 
 def gbs (graph, start, goal, h_table):
-    visited = []
     queue = [[(start, 0)]] # contains paths with costs, like this: (S, 0) => (D, 5) => (G, 6) ... etc
+    visited = []
 
     while queue:
         print("Current Queue: ", queue);
